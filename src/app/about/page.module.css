@@ -1,0 +1,197 @@
+.about_section {
+    padding: 80px 60px;
+}
+
+.about_container {
+    padding: 10px;
+    border: 2px solid #222;
+    background-image: url('/newlsletter.jpeg');
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+    margin-bottom:50px;
+}
+
+.about_details {
+    display: flex;
+}
+
+.about_text h2 {
+    font-size: 65px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.about_text p {
+    color: #fff;
+    font-family: cursive;
+    line-height: 32px;
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.about_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about_text .above_portion{
+    padding-top: 30px;
+    padding-left: 30px ;
+    padding-right: 50px;
+}
+
+.about_text .lower_portion {
+    padding-left: 30px ;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.about {
+    width: 500px;
+    height: 86vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.info_container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.info_container h2 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+.info_container h2::after {
+    content: "";
+    background: #374151;
+    width: 90px;
+    height: 6px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 6px;
+}
+
+.info_container p {
+    font-size: 16px;
+    line-height: 1.9;
+  margin-bottom: 12px;
+  font-family: cursive;
+}
+
+.info_container h4 {
+    text-align: center;
+}
+
+.SocialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.link {
+    font-size: 30px;
+    font-weight: 800;
+    color: #111827;
+    transition: 0.3s ease;
+}
+
+.link:hover {
+    color: #374151;
+    transform: scale(1.2);
+}
+
+
+@media (max-width: 1030px) {
+    .about_section {
+        padding: 80px 20px;
+    }
+    
+.about_container {
+    height: 80vh;
+    padding: 30px 0px;
+}
+    
+.about_details {
+    flex-direction: column-reverse;
+    gap: 25px;
+}
+
+.about_text {
+    gap: 15px;
+}
+
+.about_text .above_portion{
+    text-align: center;
+    padding-top: 0px;
+}
+
+.about_text .lower_portion {
+    padding-left: 0px ;
+    padding-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    width: 520px;
+    height: 40vh;
+}
+}
+
+
+@media (max-width: 477px) {
+    .about_section {
+        padding: 80px 0px;
+    }
+      
+.about_container {
+    height: 90vh;
+    padding: 20px;
+}
+
+.about_details {
+    gap: 10px;
+}
+
+.about {
+    width: 300px;
+    height: 30vh;
+    border-radius: 6px;
+}
+
+.about_text .above_portion{
+    padding-top: 0px;
+    padding-left:   10px ;
+    padding-right: 10px;
+}
+
+.about_text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about_text p {
+    margin-bottom: 10px;
+}
+
+
+    
+    
+}

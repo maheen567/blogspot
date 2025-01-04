@@ -1,0 +1,123 @@
+.footer_div {
+    padding: 40px 140px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #9ca3af;
+    border: 2px solid #374151;
+    border-radius: 12px;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.lower {
+    text-align: center;
+    color: #222;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.lower p {
+    line-height: 26px;
+}
+
+.lower .link {
+    color: #222;
+    transition: 0.3s ease;
+}
+
+.lower .link:hover {
+    font-weight: 600;
+}
+
+.logo {
+    color: #374151;
+    font-size: 46px;
+    margin-bottom: 19px;
+}
+
+/* Contact Footer Styling */
+/* --------------------------------------------------------------------- */
+/* Contact Section styling */
+
+.contact_column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+.contact_column .contact_info .logoText {
+    display: flex;
+    gap: .3125rem;
+    margin-bottom: 22px;
+}
+
+.contact_column .contact_info .logoText a{
+    color: black;
+    font-size: 50px;
+}
+
+.contact_info h2 {
+    margin-bottom: 8px;
+}
+
+.contact_column h4 {
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.contact_column .contact_info p {
+    color: #222;
+    margin-bottom: 5px;
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* About section styling */
+.about_column{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+    padding: 0px 10px;
+}
+
+.about_column .about_links{
+    color: #222;
+    transition: 0.3s ease;
+}
+
+.about_column .about_links:hover {
+    font-weight: 700;
+    color: #fff;
+}
+
+
+
+@media (max-width: 1030px) {
+    .footer_div {
+        padding: 50px 100px;
+        width: 100%;
+        margin: 0 ;
+    }
+    
+}
+
+@media (max-width: 550px) {
+    .footer_div {
+        padding: 40px 10px;
+        width: 100%;
+    }
+    
+.contact_column .contact_info p {
+   font-size: 14px;
+}
+
+.about_column .about_links{
+    font-size: 14px;
+}
+}

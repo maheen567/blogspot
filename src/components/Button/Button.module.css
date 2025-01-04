@@ -1,0 +1,23 @@
+.container {
+    text-align: center;
+    padding: 20px 0px;
+}
+.link {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #374151;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.link:hover {
+    background-color: #fff;
+    color: #374151;
+    border: 1px solid #374151;
+    transform: scale(1.01);
+}

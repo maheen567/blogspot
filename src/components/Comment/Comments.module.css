@@ -1,0 +1,102 @@
+.comment_container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.comment_container h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #222;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.comment_container h2::after {
+    content: "";
+    background: #374151;
+    width: 90px;
+    height: 6px;
+    display: block;
+    margin: 5px auto 0;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.input_box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.input_box label {
+    color: rgb(223, 217, 217);
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.input_box input, .input_box textarea {
+    width: 100%;
+    padding: 15px;
+    font-style: 16px;
+    margin: 5px 0px 10px 0px;
+    border: 1px solid #374151;
+    outline: none;
+    border-radius: 6px;
+    background-color: #9ca3af;
+}
+
+.input_box input::placeholder, .input_box textarea::placeholder {
+    color: #3b3d41;
+    font-weight: 500;
+    opacity: 1; /* Ensure the placeholder is fully opaque */
+  }
+
+ .post {
+    color: #222;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+   background-color: #374151;
+   border-radius: 6px;
+   color: white;
+    outline: none;
+    margin-top: 10px;
+    border: 2px solid #9ca3af;
+    margin-bottom: 20px;
+}
+
+ .post:hover {
+    background-color: #fff;
+    color: #374151;
+}
+
+.btn {
+    text-align: center;
+}
+
+.display_div {
+text-align: start;
+}
+
+.display_div p {
+    width: 100%;
+    font-size: 14px;
+}
+
+.display_comment {
+    padding: 12px 15px;
+    background-color: #9ca3af;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 950px) {
+    .comment_container {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
